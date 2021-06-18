@@ -1,0 +1,96 @@
+body{
+    background-color: #F0FFFF;
+}
+.cell{
+    width: 200px;
+    height: 200px;
+    border: solid 1px #778899;
+    margin: 0%;
+    padding: 0%;
+    background-color: #778899;
+    text-align: center;
+    font-size: 150px;
+    font-weight: bold;
+ 
+}
+.playingField{
+    position: absolute;
+    padding: 0%;
+    margin: 0%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%; 
+}
+.table{
+    border: solid 5px #2F4F4F;
+    display: none;
+}
+h1{
+    position: absolute;
+    display: none;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+    text-shadow: 1px 0 1px black;
+    font-size: 150px;
+    color: green;
+}
+.but-3{
+    position: absolute;
+    display: none;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 50%;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #2F4F4F;  
+    -webkit-text-stroke: 1xp #F0FFFF;  
+    padding: 5px;
+    font-family: sans-serif;
+    letter-spacing: 0.5em;
+    font-size: 20px;
+}
+.but-3:hover{
+    box-shadow: 4px 4px 4px 4px #2F4F4F;
+    width: 155px;
+    height: 55px;
+}
+.buttons{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%; 
+    margin-top: 50px;
+}
+.kristik, .nolik{
+    width: 150px;
+    height: 50px;
+}
+.here{   
+    position: relative;
+    left: 34%; 
+    margin-top: 7%;
+}
+.player, .ai{
+    display: inline;
+    padding-left: 130px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2F4F4F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
